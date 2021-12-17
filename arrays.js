@@ -5,10 +5,17 @@ const faveColors = ['red', 'green', 'black']
 
 //CODE HERE
 
+let colorCopy = []
+
+colorCopy = faveColors.splice(0,3)
+console.log(colorCopy)
+
 //////////////////PROBLEM 2////////////////////
 /* Add a fourth color to the end of the 'colorCopy' array using the push method. */
 
 //CODE HERE
+
+colorCopy.push("orange")
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -19,6 +26,12 @@ const faveColors = ['red', 'green', 'black']
 const numbers = [1, 2, 3, 4, 5]
 
 //CODE HERE
+
+let middleNums = []
+
+middleNums = numbers.slice(1,4)
+
+console.log(middleNums)
 
 
 //////////////////PROBLEM 4////////////////////
@@ -33,4 +46,21 @@ const numbers = [1, 2, 3, 4, 5]
 
 const bigOrSmallArray = [1, 99, 42, 69, 102, -10, 159, 352]
 
+const answers = []
+
 // CODE HERE
+
+for (i = 0; i< bigOrSmallArray; i++){
+  if (bigOrSmallArray > 100){
+    answers.unshift("big")
+    console.log(answers)
+  }else if (bigOrSmallArray < 100){
+    answers.unshift("small")
+    console.log(answers)
+
+  }
+
+  
+
+
+}

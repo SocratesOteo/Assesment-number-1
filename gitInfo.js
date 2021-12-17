@@ -10,6 +10,7 @@
 */
 
 //CODE HERE
+const gitDefinition = "git is a software for tracking and accessing files mainly used by programmers for work"
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -19,6 +20,8 @@
 
 //CODE HERE
 
+const gitHubDefinition = "Cloud based website where code and be shared, distributed oe edited based around the software git"
+
 //////////////////PROBLEM 3////////////////////
 /*
     Create a variable called 'gitInitDefinition'.  
@@ -26,6 +29,8 @@
 */
 
 //CODE HERE
+
+const gitInitDefinition = "It adds Git to your projects to it can be allowed to be shared through git"
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -35,6 +40,8 @@
 
 //CODE HERE
 
+const gitClone = "creates a copy "
+
 //////////////////PROBLEM 5////////////////////
 /*
     Create a variable called 'gitStatusDefinition'.  
@@ -42,6 +49,8 @@
 */
 
 //CODE HERE
+
+const gitStatusDefinition = "checks to see what files have been git initialized"
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -54,6 +63,11 @@
 
 //CODE HERE
 
+const gitAddDefinition = 'adds whatever hasnt been uploaded to the initialized git as well is a pathway for commiting messages'
+
+const gitAddCode = "git add ."
+
+
 //////////////////PROBLEM 7////////////////////
 /*
     Create a variable called 'gitCommitDefinition'.  
@@ -65,6 +79,12 @@
 
 //CODE HERE
 
+const gitCommitDefinition = "using this you can be able to add a small message or a big one to be seen when uploading your projects"
+
+const gitCommitCode = "git commit -m 'initial commit'"
+
+
+
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -73,3 +93,5 @@
 */
 
 //CODE HERE
+
+const gitPushDefinition = "it sends your files and info including commits to where you want them to go"
